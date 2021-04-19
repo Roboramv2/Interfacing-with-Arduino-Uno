@@ -14,3 +14,7 @@ For each component: code, picture, and output are given.
 2. HC-SR04: (folder named ultrasonic)
     * Measure distance using reflection of sound
     * [Datasheet](https://datasheetspdf.com/pdf-file/1380136/ETC/HC-SR04/1)
+
+3. SG-90: (folder named servo)
+    * Servo motor for controlled rotation
+    * [Datasheet](http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf)
