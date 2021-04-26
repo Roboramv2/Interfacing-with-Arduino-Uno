@@ -1,8 +1,8 @@
-#define echoPin 4 // attach pin D2 Arduino to pin Echo of HC-SR04
-#define trigPin 3 //attach pin D3 Arduino to pin Trig of HC-SR04
+#define echoPin 11 // attach pin D2 Arduino to pin Echo of HC-SR04
+#define trigPin 10 //attach pin D3 Arduino to pin Trig of HC-SR04
 //Vcc to +5V, Gnd to Ground
 // defines variables
-long duration; // variable for the duration of sound wave travel
+long duration = 0; // variable for the duration of sound wave travel
 int distance; // variable for the distance measurement
 
 void setup() {
@@ -14,11 +14,12 @@ void setup() {
 }
 void loop() {
   digitalWrite(trigPin, LOW);
+  digitalWrite(echoPin, LOW);
   delayMicroseconds(2);
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
-  duration = pulseIn(echoPin, HIGH);
+  duration = pulseIn(echoPin, HIGH, 30000);
   distance = duration * 0.034 / 2;
   Serial.print("Distance is: ");
   Serial.println(distance);
