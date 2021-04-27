@@ -22,3 +22,7 @@ For each component: code, picture, and output are given.
 4. KY-018: (folder named photoresistor)
     * Photoresistor for detecting presence or absence of light
     * [Datasheet](https://datasheetspdf.com/pdf-file/1402029/Joy-IT/KY-018/1)
+
+5. KY-039: (folder named heartbeat)
+    * Heartbeat sensor that uses IR waves to sense pulse at fingertip
+    * [Datasheet](https://www.thegeekpub.com/wiki/sensor-wiki-ky-039-heartbeat-sensor/)
