@@ -27,7 +27,7 @@ For each component: code, picture, and output are given.
     * Heartbeat sensor that uses IR waves to sense pulse at fingertip
     * [Datasheet](https://www.thegeekpub.com/wiki/sensor-wiki-ky-039-heartbeat-sensor/)
 
-6. HC-06: (folder named bluetooth)
+6. HC-06: (folder named btmodule)
     * Slave-only bluetooth module for arduino, with 4 pins.
     * Works on 3.3 voltage so must use a 2/3 voltage divider for the RX terminal (1kohm, 2kohm).
     * [Datasheet](https://components101.com/wireless/hc-06-bluetooth-module-pinout-datasheet)
