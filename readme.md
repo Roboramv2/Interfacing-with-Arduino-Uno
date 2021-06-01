@@ -31,3 +31,8 @@ For each component: code, picture, and output are given.
     * Slave-only bluetooth module for arduino, with 4 pins.
     * Works on 3.3 voltage so must use a 2/3 voltage divider for the RX terminal (1kohm, 2kohm).
     * [Datasheet](https://components101.com/wireless/hc-06-bluetooth-module-pinout-datasheet)
+
+7. NEMA-17: (folder named nema17)
+    * 4.kg-cm 12-35V steper motor.
+    * 4 pin, controlled with a A4988 driver board.
+    * Video and connections in folder.
