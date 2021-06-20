@@ -36,3 +36,8 @@ For each component: code, picture, and output are given.
     * 4.kg-cm 12-35V steper motor.
     * 4 pin, controlled with a A4988 driver board.
     * Video and connections in folder.
+
+8. KY-006: (folder named passivebuzzer)
+    * Buzzer with variable frequency outputs.
+    * Tone is modified through a PWM input from arduino.
+    * Connection information and image in folder.
