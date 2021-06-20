@@ -1,0 +1,4 @@
+Connections:
+
+(s) pin on ky006 -> arduino digital pin 3
+(-) pin on ky006 -> arduino ground(gnd) pin
