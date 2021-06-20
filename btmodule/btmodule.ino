@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 
-SoftwareSerial hc06(2,3);
+SoftwareSerial hc06(6,7);
 
 void setup(){
   //Initialize Serial Monitor
