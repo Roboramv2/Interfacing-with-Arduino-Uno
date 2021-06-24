@@ -1,4 +1,6 @@
 # Interfacing with Arduino Uno
+![Badge](https://img.shields.io/badge/Components%20Covered-8-green)
+
 ***
 
 ### Format:
