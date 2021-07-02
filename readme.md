@@ -43,3 +43,8 @@ For each component: code, picture, and output are given.
     * Buzzer with variable frequency outputs.
     * Tone is modified through a PWM input from arduino.
     * Connection information and image in folder.
+
+9. GY-521: (folder named gy521)
+    * The whole package, has everything.
+    * Temperature, 3-axis gyroscope, 3-axis accelerometer.
+    * Connections provided.
