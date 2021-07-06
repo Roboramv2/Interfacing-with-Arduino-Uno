@@ -33,7 +33,7 @@ void loop()
     digitalWrite(stepPin, HIGH);
     delayMicroseconds(2000);
     digitalWrite(stepPin, LOW);
-    delayMicroseconds(2z000);
+    delayMicroseconds(2000);
   }
   delay(1000); // Wait a second
 }
